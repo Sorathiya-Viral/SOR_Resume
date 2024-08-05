@@ -1,0 +1,109 @@
+*{
+        /* border:1px solid #333536; */
+}
+
+body{
+        background-color: #ddf3e5;
+        font-family:"Athiti",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.custom_navbar{
+        backdrop-filter:blur(10px);
+        /* border:1px solid #333536; */
+        background-color:#1c2732;
+        border-radius:12px;
+}
+
+
+.nav-link{
+        color:rgb(100, 119, 152);
+        font-size:18px;
+        font-weight:500;
+}
+
+.curr{
+        color: #C9E4CA;
+}
+
+.nav-link:hover{
+        color:#C9E4CA;
+}
+
+.navbar-brand{
+        background: rgb(255,108,27);
+        background: linear-gradient(135deg, rgba(255,108,27,1) 0%, rgba(111,31,255,1) 100%);
+        -webkit-background-clip:text;
+        background-clip:text;
+        -webkit-text-fill-color:transparent;
+        height:fit-content;
+        font-size:24px;
+        font-weight:600;
+}
+
+
+
+
+.prf-img{
+        border-radius:50%;
+        height:200px;
+        width:200px;
+}
+
+.def-center{
+        display:block;
+        margin:0 auto;
+}
+
+.prf-img-s{
+        border-radius:50%;
+        height:100%;
+        width:100%;
+}
+
+.prf-name{
+        font-size:24px;
+        font-weight: 600;
+        width:fit-content;
+}
+
+.gtlink{
+        text-decoration:none;
+        height: fit-content;
+        width: fit-content;
+        color:darkcyan;
+        font-weight:500;
+}
+
+.info-div{
+        height:auto;
+        width:50%;
+}
+
+.def-field{
+        border-radius:10px;
+        font-size:18px;
+        font-weight:600;
+        background-color:#1c2732;
+        color:steelblue;
+}
+
+.def-val{
+        border-radius:10px;
+        font-size:18px;
+        font-weight:500;
+        background-color:#C9E4CA;
+        color:darkcyan;
+}
+
+.l-text{
+        font-size:24px;
+        font-style: italic;
+}
+
+.sl-text{
+        font-size:22px;
+}
+
+.d-circle{
+        border-radius:50%;
+}
